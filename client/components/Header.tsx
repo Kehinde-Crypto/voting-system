@@ -31,17 +31,17 @@ export default function Header() {
           </nav>
 
           {/* Actions */}
-          <div className="flex items-center space-x-2">
-            <Button variant="ghost" size="sm" className="hidden sm:flex">
+          <div className="flex items-center space-x-1 sm:space-x-2">
+            <Button variant="ghost" size="sm" className="hidden lg:flex">
               <BarChart3 className="h-4 w-4 mr-2" />
               Analytics
             </Button>
-            <Button size="sm">
-              <Plus className="h-4 w-4 mr-2" />
+            <Button size="sm" className="text-xs sm:text-sm">
+              <Plus className="h-4 w-4 mr-1 sm:mr-2" />
               <span className="hidden sm:inline">New Poll</span>
               <span className="sm:hidden">New</span>
             </Button>
-            <Button variant="ghost" size="sm">
+            <Button variant="ghost" size="sm" className="p-2">
               <User className="h-4 w-4" />
             </Button>
           </div>
