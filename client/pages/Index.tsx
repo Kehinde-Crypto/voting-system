@@ -146,13 +146,13 @@ export default function Index() {
       
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-primary via-primary/90 to-accent">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           <div className="text-center text-white">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 tracking-tight">
               Your Voice,
               <span className="block text-primary-foreground/90">Your Choice</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed px-4">
               Join thousands of citizens making decisions that shape our future. Every vote counts, every voice matters.
             </p>
             
